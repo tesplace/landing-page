@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.dark-background {
+    background-color: #1f2637;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 48px;
+    gap: 32px;
+}
+
+#logo {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    display: flex;
+    flex-basis: 500px;
+}
+
+ul {
+    font-size: 18px;
+    display: flex;
+    gap: 64px;
+}
+
+.menu-list {
+    display: flex;
+    flex-basis: 500px;
+    /* border: 1px solid white; */
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+/* headerbottom */
+
+.header-bottom {
+    display: flex;
+    padding: 48px;
+    color: #f9faf8;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+h2 {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.text {
+    display: flex;
+    flex-basis: 500px;
+    flex-direction: column;
+}
+
+button {
+    width: 100px;
+}
+
+.header-pic {
+    display: flex;
+    max-width: 500px;
+    height: auto;
+    width: 100%;
+    border-radius: 16px;
+}
+
+
+/* body */
+
+.body {
+    display: flex;
+    border: 1px solid blue;
+    gap: 32px;
+    padding: 48px;
+}
+
+.cards {
+    display: flex;
+    border: 1px solid blue;
+    width: 200px;
+    height: 200px;
+}
