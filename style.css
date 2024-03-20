@@ -5,6 +5,11 @@
 }
 
 
+/* body {
+    display: flex;
+    flex-direction: column;
+} */
+
 .dark-background {
     background-color: #1f2637;
 }
@@ -44,11 +49,24 @@ ul {
 
 li {
     list-style: none;
+    text-align: center;
 }
 
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    border: none;
+    border-radius: 32px;
+    width: 250px;
+    margin-top: 32px;
 }
 
 /* headerbottom */
@@ -67,7 +85,7 @@ h1 {
     color: #f9faf8;
 }
 
-h2 {
+h3 {
     font-size: 18px;
     color: #f9faf8;
 }
@@ -76,10 +94,6 @@ h2 {
     display: flex;
     flex-basis: 500px;
     flex-direction: column;
-}
-
-button {
-    width: 100px;
 }
 
 .header-pic {
@@ -95,14 +109,61 @@ button {
 
 .body {
     display: flex;
-    border: 1px solid blue;
-    gap: 32px;
+    gap: 64px;
     padding: 48px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .cards {
-    display: flex;
-    border: 1px solid blue;
+    width: 200px;
+    padding: 10px;
+    
+}
+
+.pic {
     width: 200px;
     height: 200px;
+    overflow: hidden;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.cat-pic {
+    width: 200px;
+    height: auto;
+}
+
+h2 {
+    font-size: 32px;
+    color: #1f2637;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+h4,
+h5 {
+    color: gray;
+    text-align: center;
+}
+
+/* midbody */
+
+.midbody {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 48px;
+}
+
+h1.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    max-width: 750px;
 }
