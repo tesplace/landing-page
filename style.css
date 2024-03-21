@@ -6,7 +6,7 @@
 
 
 .dark-background {
-    background-color: #1f2637;
+    background-color: #5A6D50;
 }
 
 /* header */
@@ -53,7 +53,7 @@ a {
 }
 
 button {
-    background-color: #3882f6;
+    background-color: #B38E6C;
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -150,7 +150,7 @@ h5 {
 .midbody {
     display: flex;
     justify-content: center;
-    background-color: #e5e7eb;
+    background-color: #F2F2DB;
     padding: 48px;
 }
 
@@ -167,7 +167,7 @@ h1.quote {
 
 .calltoaction {
     display: flex;
-    background-color: #3882f6;
+    background-color: #B38E6C;
     justify-content: center;
     margin: 176px;
     padding: 48px;
@@ -199,7 +199,7 @@ h1.quote {
 .footer {
     display: flex;
     justify-content: center;
-    background-color: #1f2637;
+    background-color: #5A6D50;
     padding: 24px;
 }
 
