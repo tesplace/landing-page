@@ -5,11 +5,6 @@
 }
 
 
-/* body {
-    display: flex;
-    flex-direction: column;
-} */
-
 .dark-background {
     background-color: #1f2637;
 }
@@ -166,4 +161,49 @@ h1.quote {
     font-weight: lighter;
     text-align: center;
     max-width: 750px;
+}
+
+/* lowerbody */
+
+.calltoaction {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: center;
+    margin: 176px;
+    padding: 48px;
+    border-radius: 24px;    
+}
+
+.ctabutton {
+    border: 2px solid white;
+    justify-content: center;
+}
+
+.calltoaction h2 {
+    margin: 0;
+    color: white;
+    padding: 0;
+}
+
+.ctatext {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    font-size: 28px;
+    max-width: 500px;
+}
+
+/* footer */
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2637;
+    padding: 24px;
+}
+
+.footer h3 {
+    font-weight: lighter;
+    font-size: 18px;
 }
